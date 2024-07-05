@@ -9,7 +9,7 @@ function NavBar() {
       <NavLink
         to="/projects"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+          isPending ? "pending" : isActive ? "active" : "normal"
         }
       >
         Projects
@@ -17,7 +17,7 @@ function NavBar() {
       <NavLink
         to="/about"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+          isPending ? "pending" : isActive ? "active" : "normal"
         }
       >
         About
@@ -25,7 +25,7 @@ function NavBar() {
       <NavLink
         to="/contact"
         className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
+          isPending ? "pending" : isActive ? "active" : "normal"
         }
       >
         Contact

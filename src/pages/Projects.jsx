@@ -1,11 +1,12 @@
 import "./Projects.css";
 import projects from "../data/projects";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <>
       <h1>Projects</h1>
-      <div className="container">
+      <ul className="container">
         {projects.map((project) => (
           <ul className="element" key={project.id}>
             <li>{project.title}</li>
@@ -15,9 +16,13 @@ function Projects() {
             <li>
               <p>{project.description}</p>
             </li>
+            <li>
+              <Link to={`/projects/${project.id}`}>See more details...</Link>
+              {/* <Link to={`/movies/${movie.id}`}>Link1</Link> */}
+            </li>
           </ul>
         ))}
-      </div>
+      </ul>
     </>
   );
 }
