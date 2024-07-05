@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  height: 300px;
+  background-color: rgb(91, 91, 233);
+}
+h1 {
+  margin: 50px;
+}

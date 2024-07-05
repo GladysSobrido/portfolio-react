@@ -1,0 +1,11 @@
+img {
+  height: 200px;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  border: 2px;
+  border-color: grey;
+}
