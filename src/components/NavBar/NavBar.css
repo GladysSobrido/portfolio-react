@@ -1,16 +1,17 @@
-* {
+.mainmenu {
   flex-direction: row;
+  width: 100%;
 }
 a {
   margin: 0px;
   padding: 30px;
   text-decoration: none;
 }
-.active {
+a.active {
   background-color: rgb(157, 251, 251);
   color: black;
 }
-.normal {
+a.normal {
   background-color: rgb(36, 36, 125);
   color: rgb(157, 251, 251);
 }
