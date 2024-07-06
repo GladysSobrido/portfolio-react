@@ -17,7 +17,9 @@ function ProjectDetails() {
         <img src={`../${selectedProject.image}`} alt="" />
         <p>{selectedProject.description}</p>
         {selectedProject.media ? (
-          <Link to={selectedProject.media}>Watch it now!</Link>
+          <Link className="linkto" to={selectedProject.media}>
+            Watch it now!
+          </Link>
         ) : (
           <p></p>
         )}

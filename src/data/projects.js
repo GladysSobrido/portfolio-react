@@ -23,8 +23,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Short film `Iris` ",
-    image: "src/assets/PictureGallery.png",
+    title: "Short film 'Iris' ",
+    image: "src/assets/shortfilmIris.png",
     description: "A shorfilm I cooperated to do in 2016",
     longDescription:
       "This is a shortfilm in which production I participated as cameraman and ligthting technician. It was recorded and edited in Madrid (Spain) in 2016. Original idea, screenplay & direction: Jacob Vallejo-Gonzalez. Photography & gafer: Gladys Sobrido. Sound: Rubén Ramírez. Make-up: Miguel Ángel Ruiz. Director assistant: Coral Villaverde",
