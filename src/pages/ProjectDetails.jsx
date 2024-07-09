@@ -1,7 +1,8 @@
-import "./ProjectDetails.css";
+import styles from "./ProjectDetails.module.css";
 import { Link, useParams } from "react-router-dom";
 import projects from "../data/projects";
 import { useNavigate } from "react-router-dom";
+
 //const movie = movies.find((movie) => movie.id == movieId);
 
 function ProjectDetails() {
@@ -10,14 +11,15 @@ function ProjectDetails() {
   const selectedProject = projects.find((project) => project.id == ProjectId);
   return (
     <>
-      <div className="project">
+      <div className={styles.project}>
         <h1>
-          Project {ProjectId}: {selectedProject.title}
+          Project {ProjectId}: {selectedProject.title} hello
         </h1>
+
         <img src={`../${selectedProject.image}`} alt="" />
         <p>{selectedProject.description}</p>
         {selectedProject.media ? (
-          <Link className="linkto" to={selectedProject.media}>
+          <Link className={styles.Linkto} to={selectedProject.media}>
             Watch it now!
           </Link>
         ) : (

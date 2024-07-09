@@ -1,0 +1,33 @@
+img {
+  height: 200px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+  max-width: min-content;
+}
+.high {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+}
+.Linkto a:link {
+  color: white;
+  background-color: rgb(36, 36, 125);
+  padding: 10px;
+  margin: 30px;
+}
+
+.Linkto a:visited {
+  color: white;
+}
+.insignia {
+  height: 50px;
+  width: 50px;
+}

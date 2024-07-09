@@ -1,12 +1,12 @@
 import NavBar from "../NavBar";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 function Header() {
   return (
     <>
-      <header>
+      <header className={styles.head}>
         <NavBar />
-        <h1>Portfolio of Gladys Sobrido</h1>
+        <h1 className={styles.title}>Portfolio of Gladys Sobrido</h1>
       </header>
     </>
   );
