@@ -45,7 +45,7 @@ export const projects = [
     highlight: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Partner info video",
     image: "infopartners.png",
     description:
