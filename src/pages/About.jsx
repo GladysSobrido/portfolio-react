@@ -1,5 +1,4 @@
 import styles from "./About.module.css";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -14,6 +13,12 @@ function About() {
             (Madrid)
           </p>
           <p>Has lived in Amsterdam, Athens, Berlin & Munich.</p>
+          <a
+            target="_blank"
+            href="src/assets/B2024-Gladys-Sobrido-CV-deutsch.pdf"
+          >
+            See full curriculum
+          </a>
 
           <p></p>
         </div>
