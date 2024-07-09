@@ -4,8 +4,8 @@
 }
 main {
   padding: 0px;
-  margin: 50px auto;
-  margin-bottom: 100px;
+  margin: 50px 10px 100px 50px;
+
   max-width: 1300px;
   font-size: 1em;
 }
