@@ -21,9 +21,17 @@ function ProjectDetails() {
           src={`../${selectedProject.image}`}
           alt=""
         />
-        <p>{selectedProject.description}</p>
+        <p>
+          {selectedProject.longDescription
+            ? `${selectedProject.longDescription}`
+            : `${selectedProject.description}`}
+        </p>
         {selectedProject.media ? (
-          <Link className={styles.Linkto} to={selectedProject.media}>
+          <Link
+            target="_blank"
+            className={styles.Linkto}
+            to={selectedProject.media}
+          >
             Watch it now!
           </Link>
         ) : (

@@ -6,7 +6,7 @@ function Contact() {
       <h1>Contact</h1>
       <div className={styles.content}>
         <p>E-Mail: g.sobrido@gmail.com</p>
-        <p>WhatsApp: 0034 636 95 11 15</p>
+        <p>Phone:+49&nbsp;171&nbsp;91&nbsp;833&nbsp;07</p>
         <p>Facebook: Gladys Sobrido</p>
         <p>Instagram: Gladys Sobrido</p>
       </div>

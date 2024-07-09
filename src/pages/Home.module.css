@@ -2,7 +2,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
 }
 .homelink {
   color: rgb(36, 36, 125);
@@ -10,7 +10,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin-top: 50px;
   gap: 20px;
 }
 .homeimg {
@@ -18,8 +18,10 @@
 }
 @media (max-width: 1000px) {
   .container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     min-width: 200px;
     max-width: 90%;
     padding: 5px;

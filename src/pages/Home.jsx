@@ -7,8 +7,9 @@ function Home() {
       <div className={styles.container}>
         <img className={styles.homeimg} src="src/assets/gladys.png" alt="" />
         <div>
+          <h1>Gladys Sobrido</h1>
+          <h5>Fullstack Developer in training</h5>
           <div className={styles.content}>
-            <h1>Welcome to my page</h1>
             <p>
               Here you will find different projects that I have done during the
               last 20 years.
