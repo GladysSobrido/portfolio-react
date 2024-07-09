@@ -13,10 +13,7 @@ function About() {
             (Madrid)
           </p>
           <p>Has lived in Amsterdam, Athens, Berlin & Munich.</p>
-          <a
-            target="_blank"
-            href="src/assets/B2024-Gladys-Sobrido-CV-deutsch.pdf"
-          >
+          <a target="_blank" href="B2024-Gladys-Sobrido-CV-deutsch.pdf">
             See full curriculum
           </a>
 
