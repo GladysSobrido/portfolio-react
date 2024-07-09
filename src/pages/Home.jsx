@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <div className={styles.container}>
-        <img className={styles.homeimg} src="src/assets/gladys.png" alt="" />
+        <img className={styles.homeimg} src="gladys.png" alt="" />
         <div>
           <h1>Gladys Sobrido</h1>
           <h5>Fullstack Developer in training</h5>

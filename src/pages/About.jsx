@@ -5,7 +5,7 @@ function About() {
     <>
       <h1>About</h1>
       <div className={styles.about}>
-        <img className={styles.aboutimg} src="src/assets/gladys02.png" alt="" />
+        <img className={styles.aboutimg} src="gladys02.png" alt="" />
         <div>
           <p> Gladys Sobrido was born in Madrid (Spain).</p>
           <p>
