@@ -6,21 +6,31 @@ export default function Card({ project }) {
     <>
       <div className={styles.element}>
         <li>{project.title}</li>
+        <div className={styles.div1}>
+          <li>
+            <Link to={`/projects/${project.id}`}>
+              <img
+                className={styles.cardimg}
+                src={`../${project.image}`}
+                alt=""
+              />
+            </Link>
+          </li>
+          <div className={styles.div2}>
+            <li>
+              <p>{project.description}</p>
+            </li>
 
-        <li>
-          <Link to={`/projects/${project.id}`}>
-            <img src={`../${project.image}`} alt="" />
-          </Link>
-        </li>
-        <li>
-          <p>{project.description}</p>
-        </li>
-        <li>
-          <div className={styles.Linkto}>
-            <Link to={`/projects/${project.id}`}>See more details...</Link>
+            {/* Link */}
+            <li>
+              <div className={styles.Linkto}>
+                <Link to={`/projects/${project.id}`}>See more details...</Link>
+              </div>
+            </li>
           </div>
-          {/* <Link to={`/movies/${movie.id}`}>Link1</Link> */}
-        </li>
+        </div>
+
+        {/* Insignia */}
         <div className={styles.high}>
           {project.highlight ? (
             <img className={styles.insignia} src="../src/assets/insignia.png" />

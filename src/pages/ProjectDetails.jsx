@@ -16,7 +16,11 @@ function ProjectDetails() {
           Project {ProjectId}: {selectedProject.title} hello
         </h1>
 
-        <img src={`../${selectedProject.image}`} alt="" />
+        <img
+          className={styles.projectdetimg}
+          src={`../${selectedProject.image}`}
+          alt=""
+        />
         <p>{selectedProject.description}</p>
         {selectedProject.media ? (
           <Link className={styles.Linkto} to={selectedProject.media}>

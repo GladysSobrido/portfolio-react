@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <p>mm</p>
       <div className="mainmenu">
         <NavLink
           to="/"

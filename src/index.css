@@ -4,6 +4,18 @@
 }
 main {
   padding: 0px;
-  margin: 50px 100px;
+  margin: 50px auto;
+  margin-bottom: 100px;
   max-width: 1300px;
+  font-size: 1em;
+}
+
+@media (max-width: 1000px) {
+  main {
+    margin: 10px;
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-size: 1em;
+  }
 }
